@@ -56,5 +56,29 @@ public class NewBehaviourScript : MonoBehaviour
         Application.OpenURL ("http://x.com");
     }
 
+    public void reiniciar() {
+        Debug.Log("Reiniciar juego");
+    }
+
+    public void menu() {
+        Debug.Log("Abrir menú");
+    }
+
+    public void accion1() {
+        Debug.Log("Hacer acción 1");
+    }
+
+    public void accion2() {
+        Debug.Log("Hacer acción 2");
+    }
+
+    public void accion3() {
+        Debug.Log("Hacer acción 3");
+    }
+
+    public void accion4() {
+        Debug.Log("Hacer acción 4");
+    }
+
 
 }
